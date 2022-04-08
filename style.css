@@ -1,0 +1,419 @@
+@font-face {
+  font-family: MTAVRULI;
+  src: url('../fonts/bpg_nino_mtavruli_bold.ttf');
+}
+
+@font-face {
+  font-family: ARIAL;
+  src: url('../fonts/bpg_arial_2009.ttf');
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.dv {
+  width: 50px;
+  height: 2px;
+  background-color: blueviolet;
+  margin-left: 100px;
+  margin-bottom: -150px;
+  position: absolute;
+}
+
+.navbar {
+  padding-left: 50px;
+  padding-right: 50px;
+  padding: 20px;
+}
+
+.navbar-brand {
+  font-family: MTAVRULI;
+}
+
+.brand {
+  width: 100px;
+  text-decoration: none;
+  color: black;
+  font-size: 30px;
+}
+
+li i {
+  font-size: 25px;
+  margin: 25px;
+  cursor: pointer;
+}
+
+li i:hover {
+  color: rgb(53, 172, 120);
+}
+
+.cl {
+  color: rgb(110, 110, 110) !important;
+  font-family: MTAVRULI;
+}
+
+.cl:hover {
+  color: rgb(53, 172, 120) !important;
+}
+
+.carousel-caption {
+  position: absolute;
+  right: 56%;
+  bottom: 1.25rem;
+  padding-top: -0.75rem;
+  padding-bottom: 8.25rem;
+  color: #fff;
+  text-align: center;
+}
+
+.tx {
+  padding-top: 70px;
+}
+
+.tx h5 {
+  color: rgba(59, 59, 59, 0.726);
+  font-family: mtavrili;
+}
+
+.txt h6:hover {
+  color: rgb(53, 172, 120);
+  cursor: pointer;
+}
+
+.txt p:hover {
+  color: rgb(53, 172, 120);
+  cursor: pointer;
+}
+
+.txt h6 {
+  color: black;
+}
+
+.tx hr {
+  width: 190px;
+  color: rgba(0, 0, 0, 0.829);
+  height: 2px;
+  opacity: 1;
+}
+
+#wrapper {
+  width: 100%;
+  position: relative;
+  padding-top: 50px;
+}
+
+#carousel {
+  overflow: auto;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+}
+
+#carousel::-webkit-scrollbar {
+  height: 0;
+}
+
+#prev,
+#next {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background: white;
+  border: none;
+  padding: 8px;
+  border-radius: 50%;
+  outline: 0;
+  cursor: pointer;
+  position: absolute;
+}
+
+#prev {
+  top: 50%;
+  left: 0.5;
+  transform: translate(50%, -50%);
+  display: none;
+}
+
+#next {
+  top: 50%;
+  right: 0;
+  transform: translate(-50%, -50%);
+}
+
+#content {
+  display: grid;
+  grid-gap: 16px;
+  grid-auto-flow: column;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+#con {
+  display: grid;
+  grid-gap: 16px;
+  grid-auto-flow: column;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+.item {
+  width: 180px;
+  height: 180px;
+}
+
+.div {
+  margin: 20px;
+  width: 276px;
+  height: 276px;
+  border-bottom: 1px solid rgb(175, 175, 175);
+  border-right: 1px solid rgba(175, 175, 175, 0.644);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(https://png.pngtree.com/png-vector/20191026/ourmid/pngtree-laptop-icon-png-image_1871608.jpg);
+}
+
+.div:hover {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSnAkF-OO2xSTU2qWUAcxklZ00tn1vwg4RNg&usqp=CAU);
+}
+
+.div-last {
+  margin: 20px;
+  width: 276px;
+  height: 276px;
+  border-bottom: 1px solid rgb(175, 175, 175);
+  border-right: 1px solid rgba(175, 175, 175, 0.644);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(https://www.designbust.com/download/438/png/gaming_pc_png_icon512.png);
+}
+
+.div-last:hover {
+  background-image: url(https://www.kindpng.com/picc/m/183-1834427_best-gaming-pc-hd-png-download.png);
+}
+
+.div-second {
+  margin: 20px;
+  width: 276px;
+  height: 276px;
+  border-bottom: 1px solid rgb(175, 175, 175);
+  border-right: 1px solid rgba(175, 175, 175, 0.644);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(https://www.sony.com.ph/image/0176c9dccaaf587e4a179202ba742309?fmt=pjpeg&wid=1200&hei=470&bgcolor=F1F5F9&bgc=F1F5F9);
+}
+
+.div-second:hover {
+  background-image: url(https://cdn.techjuice.pk/wp-content/uploads/2021/07/gsmarena_004.jpeg);
+}
+
+.jw {
+  text-align: center;
+}
+
+.ccc {
+  padding-top: 80px;
+  height: 350px;
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.size1 {
+  width: 50%;
+  background-color: rgba(90, 88, 88, 0.767);
+  text-align: center;
+  padding-top: 80px;
+  color: #fff;
+}
+
+.size1:hover {
+  background-color: rgba(19, 18, 18, 0.767);
+  transition: .5s;
+  color: rgb(110, 109, 109);
+}
+
+.size1 h1 {
+  font-size: 70px;
+}
+
+.size2 {
+  background-image: url(https://www.pngmart.com/files/8/Black-PNG-Download-Image.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 50%;
+}
+
+.bk {
+  background-image: url(https://furniture011.com/wp-content/uploads/2020/02/white-trianglify.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+.size2:hover {
+  background-color: rgb(153, 153, 153);
+  transition: .5s;
+}
+
+.icon-text i {
+  font-size: 80px;
+}
+
+.icon-text {
+  text-align: center;
+  padding: 15px;
+}
+
+.icon-text h3 {
+  font-family: mtavruli;
+  color: rgb(92, 92, 92);
+  font-size: 22px;
+  margin: 15px;
+}
+
+.icon-text p {
+  font-family: arial;
+  font-size: 15px;
+}
+
+.icons {
+  display: flex;
+  margin: auto;
+}
+
+.hr {
+  width: 135px !important;
+}
+
+.but {
+  font-family: arial;
+  background-color: rgb(0, 139, 194);
+}
+
+.sale {
+  background-color: rgb(231, 81, 61);
+  display: inline-block;
+  padding: 5px 15px;
+  color: #fff;
+  width: 65px;
+  margin-left: 210px;
+}
+
+.txt span {
+  color: rgb(231, 81, 61);
+}
+
+footer {
+  background-color: rgb(41, 41, 41);
+}
+
+.fotdiv {
+  color: rgb(128, 127, 127);
+}
+
+.fotdiv p {
+  font-family: arial;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-size: 14px;
+}
+
+.fotdiv h4 {
+  font-family: mtavruli;
+}
+
+.fotdiv i {
+  color: #fff;
+  margin: 7px;
+}
+
+.pd {
+  padding-bottom: 20px;
+}
+
+.fotdiv hr {
+  color: #fff;
+}
+
+.fotdiv h6 {
+  color: rgb(212, 212, 212);
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.fotdiv h6:hover {
+  color: rgb(53, 172, 120);
+}
+
+.carddiv {
+  display: flex;
+}
+
+.card {
+  width: 400px;
+}
+
+.mp {
+  width: 100%;
+  height: 20rem;
+  filter: grayscale(100%) invert(92%) contrast(83%);
+}
+
+@media (max-width: 1200px) {
+  .ds {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+
+  .div-second {
+    width: 100%;
+  }
+
+  .rsp {
+    width: 50%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .ds {
+    flex: 0 0 auto;
+    width: 100%;
+    padding: 20px;
+  }
+
+  .div-second {
+    width: 400px;
+    max-width: 100%;
+    margin: auto;
+  }
+
+  .txt {
+    padding-top: 25px;
+  }
+
+  .size1 {
+    width: 100%;
+  }
+
+  .size2 {
+    width: 100%;
+    padding-bottom: 120px;
+  }
+}
+
+@media (max-width:600px) {
+
+  .size1 h1 {
+    font-size: 30px;
+  }
+
+  .c {
+    height: 200px;
+    padding-top: 10px;
+  }
+}
