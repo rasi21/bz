@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Brain Tech</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <h1>BRAIN TECH</h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link cl" aria-current="page" href="#">დრონები</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link cl" href="#">კამერები</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link cl" href="#">აუდიო სისტემები</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link cl" href="#">ტრენინგი</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link cl" href="#">შეკეთება</a>
+                    </li>
+
+                    <div class="icons">
+                        <li class="nav-item">
+                            <i class="bi bi-search"></i>
+                        </li>
+
+                        <li class="nav-item">
+                            <i class="bi bi-cart"></i>
+                        </li>
+                        <li class="nav-item">
+                            <i class="bi bi-envelope"></i>
+                        </li>
+                        <li class="nav-item">
+                            <i class="bi bi-person"></i>
+                        </li>
+                    </div>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner ">
+            <div class="carousel-item crc-img active">
+                <img src="img/MicrosoftTeams-image-32.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>First slide label</h5>
+                    <p>Some representative placeholder content for the first slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/Adapter-Amazon-Business-Blog.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Second slide label</h5>
+                    <p>Some representative placeholder content for the second slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/bu_financial_1920x500.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Third slide label</h5>
+                    <p>Some representative placeholder content for the third slide.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <div class="container">
+        <div class="row ">
+            <div class="tx">
+                <h5>ყველაზე გაყიდვადი</h5>
+                <hr>
+            </div>
+            <div id="wrapper">
+                <div id="carousel">
+                    <div id="content">
+                        <div class="jw">
+                            <a href="">
+                                <div class="div">
+                                </div>
+                            </a>
+                            <div class="txt">
+                                <h6>Apple Macbook Air 13 M1 Chip 8GB</h6>
+                                <p>Apple</p>
+                                <h5>1550₾</h5>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+                <button id="prev">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                        <path fill="none" d="M0 0h24v24H0V0z" />
+                        <path d="M15.61 7.41L14.2 6l-6 6 6 6 1.41-1.41L11.03 12l4.58-4.59z" />
+                    </svg>
+                </button>
+                <button id="next">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                        <path fill="none" d="M0 0h24v24H0V0z" />
+                        <path d="M10.02 6L8.61 7.41 13.19 12l-4.58 4.59L10.02 18l6-6-6-6z" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="ccc">
+        <div class="size1">
+            <h1>Brain Tech</h1>
+        </div>
+        <div class="size2">
+        </div>
+    </div>
+    <div class="bk">
+        <div class="container ">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="icon-text">
+                        <i class="bi bi-bag-dash"></i>
+                        <h3>DJI-ს ოფიციალური გარანტია</h3>
+                        <p>ჩვენ ვართ DJI-ს ავტორიზებული დილერი საქართველოში, რაც იმას ნიშნავს, რომ ჩვენთან შეძენილ
+                            პროდუქციას მოჰყვება DJI-ს ოფიციალური გარანტია.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="icon-text">
+                        <i class="bi bi-tools"></i>
+                        <h3>ავტორიზებული სერვის ცენტრი</h3>
+                        <p>ჩვენ გვყავს DJI-ს მიერ სერტიფიცირებული ტექნიკოსები.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="icon-text">
+                        <i class="bi bi-box"></i>
+                        <h3>უფასო მიტანის სერვისი</h3>
+                        <p>ჩვენ გთავაზობთ უფასო მიტანის სერვისს 500₾ შენაძენის შემთხვევაში, თბილისის მასშტაბით.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="icon-text">
+                        <i class="bi bi-cart-plus"></i>
+                        <h3>უსაფრთხო გადახდა</h3>
+                        <p>Copter Tech-ი გთავაზობთ დაცულ გადახდის სისტემას. თქვენი პირადი ინფორმაცია დაცული იქნება!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="tx">
+                <h5>ბოლოს დამატებული</h5>
+                <hr>
+            </div>
+            <div id="wrapper">
+                <div id="carousel">
+                    <div id="con">
+                        <div class="jw">
+                            <a href="">
+                                <div class="div-last">
+
+                                </div>
+                            </a>
+                            <div class="txt">
+                                <h6>Skytech Prism II Gaming Computer PC</h6>
+
+                                <h5>2550₾</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button id="prev">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                        <path fill="none" d="M0 0h24v24H0V0z" />
+                        <path d="M15.61 7.41L14.2 6l-6 6 6 6 1.41-1.41L11.03 12l4.58-4.59z" />
+                    </svg>
+                </button>
+                <button id="next">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                        <path fill="none" d="M0 0h24v24H0V0z" />
+                        <path d="M10.02 6L8.61 7.41 13.19 12l-4.58 4.59L10.02 18l6-6-6-6z" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row " id="rjw">
+            <div class="tx">
+                <h5>ფასდაკლებები</h5>
+                <hr class="hr">
+
+            </div>
+            <div class="col-lg-3 ds">
+                <div class="jw">
+
+                    <div class="div-second">
+                        <div class="sale ">
+                            <h6> SALE</h6>
+                        </div>
+                    </div>
+                    <div class="txt">
+                        <h6>DJI Osmo Action ND Filter Set</h6>
+                        <p>Sony</p>
+
+                        <h5>700₾ <span>500₾</span> </h5>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="button-div text-center m-5">
+            <button class="btn btn-primary but">ყველას ნახვა</button>
+
+        </div>
+    </div>
+    <div id="map-container-google-3" class="z-depth-1-half map-container-3 mp">
+        <iframe class="mp"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11908.342238961168!2d44.781727043695476!3d41.74024736336625!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x404472b92c648339%3A0xadefcdf03141af57!2z4YOc4YOY4YOZ4YOd4YOg4YOQ4YOhIOGDoeGDkOGDl-GDkOGDleGDnSDhg53hg6Thg5jhg6Hhg5g!5e0!3m2!1ska!2sge!4v1649352724734!5m2!1ska!2sge"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="row p-4">
+                <div class="col-3 rsp">
+                    <div class="fotdiv ">
+                        <div class="h4">
+                            Copter Tech
+                        </div>
+                        <p>საქართველოში პირველი DJI-ს ავტორიზებული დილერი, რომელიც სერვისების სრულ სპექტრს სთავაზობს
+                            მომხმარებელს DJI პროდუქტების ტრენინგისა და შეკეთების ჩათვლით.</p>
+                    </div>
+                </div>
+                <div class="col-3 rsp">
+                    <div class="fotdiv ">
+                        <div class="h4">
+                            აპლიკაციები
+                        </div>
+                        <p>COMING SOON</p>
+                    </div>
+                </div>
+                <div class="col-3 rsp">
+                    <div class="fotdiv ">
+                        <div class="h4 pd">
+                            გამოგვყევი
+                        </div>
+                        <div class="fc">
+                            <a href="https://www.facebook.com/"><i class="bi bi-facebook"></i></a>
+                            <a href="https://www.instagram.com/"><i class="bi bi-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3 rsp">
+                    <div class="fotdiv ">
+                        <h6>ჩვენ შესახებ</h6>
+                        <hr>
+                        <h6>კონტატქი</h6>
+                        <hr>
+                        <h6>გარანტია</h6>
+                        <hr>
+                        <h6>დრონების რეგულაციები</h6>
+                        <hr>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+    <script src="js/work.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
